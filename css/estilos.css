@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*identificador css*/
+#titulo_principal{
+    color: #14169c;
+    text-align: center;
+    margin: 15;
+
+}
+h1{
+    color: #000000;
+    text-align: center;
+    margin: 15;
+}
+h2{
+
+    color: #3f37c9;
+    text-align: center;
+}
+
+.titulo{
+    color: #14169c;
+    text-align: center;
+    margin: 15;
+
+}
+
+p {
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    padding: 15px;
+    border: 10px solid powderblue;
+    /*margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;*/
+    margin: 40px 10px 20px 10px;
+    text-align: center;
+
+}
+
+a:link, a:visited{
+    background-color:#6bac2f;
+    color:white;
+    text-align: center;
+    text-decoration: none; /* quitar de subrallado*/
+    padding: 15px 25px;
+    display: inline-block;
+}
+
+/* cuando se pone uno sobre el link y se pone el subrayado cuando se toca el link*/ 
+a:hover, a:active{
+    background-color: #1d3557;
+   
+    text-decoration: underline;
+}
+
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+ 
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*border-spacing: 5px; darle borde  las tablaspero se necesita quitar el colapce*/
+    padding: 5px;
+
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+    color: #f1faee;
+    background-color: #1d3557;
+}
+
+caption{
+    color: #f72585;
+    font-family: 'Trocchi',serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+/*Este es para renglones modificar pares*/
+tr:nth-child(even){
+    background-color: #f1faee;
+
+}
+/*Este es para renglones modificar pares*/
+tr:nth-child(odd){
+    background-color: #a8dadc;
+
+}
+
+ul{
+    list-style-type: square;
+}
+ul{
+    list-style-type: none;
+    background-color: #457b9d;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15%;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #121474;
+}
+ol{
+    counter-reset: contador;
+}
+
+ol li{
+    list-style: none;
+    float: none;
+    counter-increment: contador;
+}
+
+ol li::before{
+    content: 'Contenido ' counter(contador) '.-';
+    color: #ff6f00;
+  
+
+}
+
+ol li::after{
+    content: '.';
+}
+
+div{
+    border: 10px solid #3f37c9;
+    background-color: #fbfd86;
+    text-align: center;
+}
+
+/*clases de css*/
+.tarjeta{
+    border: 10px solid #3f37c9;
+    background-color: #f1faee;
+    text-align: center;
+    margin: 10px 115px;
+    padding: 15px;
+        }
+
+.tarjeta2{
+    border:none;
+    background-color: #f1faee;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+
+}
+.titulo_uno{
+    color: #f72585;
+
+}
