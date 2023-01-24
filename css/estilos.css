@@ -45,6 +45,7 @@ a:link, a:visited{
     text-decoration: none; /* quitar de subrallado*/
     padding: 15px 25px;
     display: inline-block;
+    margin: 2px;
 }
 
 /* cuando se pone uno sobre el link y se pone el subrayado cuando se toca el link*/ 
@@ -164,4 +165,33 @@ div{
 .titulo_uno{
     color: #f72585;
 
+}
+
+.titulo_dos{
+    color: #f72585;
+    text-align: center;
+}
+
+.marco {
+    width: 100%;
+    height: 200%;
+    border: 1px solid #f72585;
+}
+.centrar{
+    text-align: center;
+    background-color:white;
+    border: none;
+}
+.boton{
+    background-color: white;
+    border: 2px solid #457b9d;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+.boton:hover{
+    background-color: #457b9d;
+    color: white;
+    
 }
