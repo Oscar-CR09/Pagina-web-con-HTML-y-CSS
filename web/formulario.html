@@ -14,6 +14,12 @@
     <form accion="mi_servidor" >
         <fieldset>
             <legend>Datos Persona:</legend>
+
+            <label for="idPersona">Id Persona</label><br />
+            <input type="text" id="idPersona" name="idPersona" readonly="true" value="100" disabled="true"/><br />
+
+            <input type="hidden" id="sistema" name="sistema" value="SAP">
+
             <label for="nombre">Nombre:</label><br/>
             <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"/><br/>
 
@@ -57,6 +63,7 @@
             <br/>
             <input type="submit" value="Enviar"/>
             <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
+            <input type="reset" value="restablecer"/>
         </fieldset>
     </form>
     <br />
